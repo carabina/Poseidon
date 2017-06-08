@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9773B2871EE9BB77005A2D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773B2861EE9BB77005A2D50 /* AppDelegate.swift */; };
-		9773B2891EE9BB77005A2D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773B2881EE9BB77005A2D50 /* ViewController.swift */; };
-		9773B28C1EE9BB77005A2D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9773B28A1EE9BB77005A2D50 /* Main.storyboard */; };
-		9773B28E1EE9BB77005A2D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9773B28D1EE9BB77005A2D50 /* Assets.xcassets */; };
-		9773B2911EE9BB77005A2D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9773B28F1EE9BB77005A2D50 /* LaunchScreen.storyboard */; };
+		975EBC711EE9BC0200359005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC661EE9BC0200359005 /* AppDelegate.swift */; };
+		975EBC721EE9BC0200359005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC671EE9BC0200359005 /* Info.plist */; };
+		975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC691EE9BC0200359005 /* LaunchScreen.storyboard */; };
+		975EBC741EE9BC0200359005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC6B1EE9BC0200359005 /* Main.storyboard */; };
+		975EBC761EE9BC0200359005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC6F1EE9BC0200359005 /* Assets.xcassets */; };
+		975EBC781EE9BC4800359005 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC771EE9BC4800359005 /* Navigator.swift */; };
+		975EBC7B1EE9BDD700359005 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7A1EE9BDD700359005 /* MainViewController.swift */; };
+		975EBC7D1EE9BDE100359005 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7C1EE9BDE100359005 /* OneViewController.swift */; };
+		975EBC7F1EE9BDE600359005 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7E1EE9BDE600359005 /* TwoViewController.swift */; };
 		9773B29C1EE9BB77005A2D50 /* PoseidonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773B29B1EE9BB77005A2D50 /* PoseidonTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		975EBC661EE9BC0200359005 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		975EBC671EE9BC0200359005 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975EBC6A1EE9BC0200359005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975EBC6C1EE9BC0200359005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		975EBC6F1EE9BC0200359005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		975EBC771EE9BC4800359005 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		975EBC7A1EE9BDD700359005 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		975EBC7C1EE9BDE100359005 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		975EBC7E1EE9BDE600359005 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		9773B2831EE9BB77005A2D50 /* Poseidon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poseidon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9773B2861EE9BB77005A2D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9773B2881EE9BB77005A2D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9773B28B1EE9BB77005A2D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9773B28D1EE9BB77005A2D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9773B2901EE9BB77005A2D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9773B2921EE9BB77005A2D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9773B2971EE9BB77005A2D50 /* PoseidonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseidonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9773B29B1EE9BB77005A2D50 /* PoseidonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonTests.swift; sourceTree = "<group>"; };
 		9773B29D1EE9BB77005A2D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +63,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		975EBC651EE9BC0200359005 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				975EBC661EE9BC0200359005 /* AppDelegate.swift */,
+				975EBC671EE9BC0200359005 /* Info.plist */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		975EBC681EE9BC0200359005 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				975EBC791EE9BD5600359005 /* screen */,
+				975EBC691EE9BC0200359005 /* LaunchScreen.storyboard */,
+				975EBC6B1EE9BC0200359005 /* Main.storyboard */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		975EBC6E1EE9BC0200359005 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				975EBC6F1EE9BC0200359005 /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		975EBC701EE9BC0200359005 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				975EBC771EE9BC4800359005 /* Navigator.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		975EBC791EE9BD5600359005 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				975EBC7A1EE9BDD700359005 /* MainViewController.swift */,
+				975EBC7C1EE9BDE100359005 /* OneViewController.swift */,
+				975EBC7E1EE9BDE600359005 /* TwoViewController.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		9773B27A1EE9BB77005A2D50 = {
 			isa = PBXGroup;
 			children = (
-				9773B2851EE9BB77005A2D50 /* Poseidon */,
+				975EBC651EE9BC0200359005 /* app */,
+				975EBC681EE9BC0200359005 /* demo */,
+				975EBC6E1EE9BC0200359005 /* resource */,
+				975EBC701EE9BC0200359005 /* src */,
 				9773B29A1EE9BB77005A2D50 /* PoseidonTests */,
 				9773B2841EE9BB77005A2D50 /* Products */,
 			);
@@ -72,19 +127,6 @@
 				9773B2971EE9BB77005A2D50 /* PoseidonTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9773B2851EE9BB77005A2D50 /* Poseidon */ = {
-			isa = PBXGroup;
-			children = (
-				9773B2861EE9BB77005A2D50 /* AppDelegate.swift */,
-				9773B2881EE9BB77005A2D50 /* ViewController.swift */,
-				9773B28A1EE9BB77005A2D50 /* Main.storyboard */,
-				9773B28D1EE9BB77005A2D50 /* Assets.xcassets */,
-				9773B28F1EE9BB77005A2D50 /* LaunchScreen.storyboard */,
-				9773B2921EE9BB77005A2D50 /* Info.plist */,
-			);
-			path = Poseidon;
 			sourceTree = "<group>";
 		};
 		9773B29A1EE9BB77005A2D50 /* PoseidonTests */ = {
@@ -181,9 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9773B2911EE9BB77005A2D50 /* LaunchScreen.storyboard in Resources */,
-				9773B28E1EE9BB77005A2D50 /* Assets.xcassets in Resources */,
-				9773B28C1EE9BB77005A2D50 /* Main.storyboard in Resources */,
+				975EBC741EE9BC0200359005 /* Main.storyboard in Resources */,
+				975EBC721EE9BC0200359005 /* Info.plist in Resources */,
+				975EBC761EE9BC0200359005 /* Assets.xcassets in Resources */,
+				975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9773B2891EE9BB77005A2D50 /* ViewController.swift in Sources */,
-				9773B2871EE9BB77005A2D50 /* AppDelegate.swift in Sources */,
+				975EBC7F1EE9BDE600359005 /* TwoViewController.swift in Sources */,
+				975EBC7B1EE9BDD700359005 /* MainViewController.swift in Sources */,
+				975EBC711EE9BC0200359005 /* AppDelegate.swift in Sources */,
+				975EBC781EE9BC4800359005 /* Navigator.swift in Sources */,
+				975EBC7D1EE9BDE100359005 /* OneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +271,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9773B28A1EE9BB77005A2D50 /* Main.storyboard */ = {
+		975EBC691EE9BC0200359005 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9773B28B1EE9BB77005A2D50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9773B28F1EE9BB77005A2D50 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9773B2901EE9BB77005A2D50 /* Base */,
+				975EBC6A1EE9BC0200359005 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		975EBC6B1EE9BC0200359005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975EBC6C1EE9BC0200359005 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -344,7 +390,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7HM24R77UV;
-				INFOPLIST_FILE = Poseidon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amo.Poseidon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,7 +404,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7HM24R77UV;
-				INFOPLIST_FILE = Poseidon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amo.Poseidon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +462,7 @@
 				9773B2A21EE9BB77005A2D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9773B2A31EE9BB77005A2D50 /* Build configuration list for PBXNativeTarget "PoseidonTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +471,7 @@
 				9773B2A51EE9BB77005A2D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
