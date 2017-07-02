@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		975EBC711EE9BC0200359005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC661EE9BC0200359005 /* AppDelegate.swift */; };
-		975EBC721EE9BC0200359005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC671EE9BC0200359005 /* Info.plist */; };
 		975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC691EE9BC0200359005 /* LaunchScreen.storyboard */; };
 		975EBC741EE9BC0200359005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC6B1EE9BC0200359005 /* Main.storyboard */; };
 		975EBC7B1EE9BDD700359005 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7A1EE9BDD700359005 /* MainViewController.swift */; };
@@ -239,7 +238,6 @@
 				975EBC741EE9BC0200359005 /* Main.storyboard in Resources */,
 				97D835E51F094B9400EFA903 /* SixViewController.xib in Resources */,
 				97D835DD1F094B8000EFA903 /* FourViewController.xib in Resources */,
-				975EBC721EE9BC0200359005 /* Info.plist in Resources */,
 				97D835E11F094B8A00EFA903 /* FiveViewController.xib in Resources */,
 				975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */,
 			);
