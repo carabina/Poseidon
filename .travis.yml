@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode8.3
 
 script:
-- xcodebuild build test -project Poseidon.xcodeproj -scheme Poseidon -sdk=iphonesimulator10.2 CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+- xcodebuild build -project Poseidon.xcodeproj -scheme Poseidon CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
