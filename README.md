@@ -1,5 +1,7 @@
 <img src="https://github.com/OrWest/Poseidon/blob/master/Poseidon-logo.png" alt="Poseidon" title="Poseidon">
 
+[![Build Status](https://travis-ci.org/OrWest/Poseidon.svg?branch=master)](https://travis-ci.org/OrWest/Poseidon)
+
 # Poseidon
 
 It's iOS library, which helps reduce soucre code of navigation by application.
