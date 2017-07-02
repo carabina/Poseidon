@@ -11,7 +11,6 @@
 		975EBC721EE9BC0200359005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC671EE9BC0200359005 /* Info.plist */; };
 		975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC691EE9BC0200359005 /* LaunchScreen.storyboard */; };
 		975EBC741EE9BC0200359005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC6B1EE9BC0200359005 /* Main.storyboard */; };
-		975EBC761EE9BC0200359005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975EBC6F1EE9BC0200359005 /* Assets.xcassets */; };
 		975EBC7B1EE9BDD700359005 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7A1EE9BDD700359005 /* MainViewController.swift */; };
 		975EBC7D1EE9BDE100359005 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7C1EE9BDE100359005 /* OneViewController.swift */; };
 		975EBC7F1EE9BDE600359005 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975EBC7E1EE9BDE600359005 /* TwoViewController.swift */; };
@@ -42,7 +41,6 @@
 		975EBC671EE9BC0200359005 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		975EBC6A1EE9BC0200359005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975EBC6C1EE9BC0200359005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		975EBC6F1EE9BC0200359005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975EBC7A1EE9BDD700359005 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		975EBC7C1EE9BDE100359005 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		975EBC7E1EE9BDE600359005 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
@@ -98,14 +96,6 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
-		975EBC6E1EE9BC0200359005 /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				975EBC6F1EE9BC0200359005 /* Assets.xcassets */,
-			);
-			path = resource;
-			sourceTree = "<group>";
-		};
 		975EBC701EE9BC0200359005 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +127,6 @@
 			children = (
 				975EBC651EE9BC0200359005 /* app */,
 				975EBC681EE9BC0200359005 /* demo */,
-				975EBC6E1EE9BC0200359005 /* resource */,
 				975EBC701EE9BC0200359005 /* src */,
 				9773B29A1EE9BB77005A2D50 /* PoseidonTests */,
 				9773B2841EE9BB77005A2D50 /* Products */,
@@ -251,7 +240,6 @@
 				97D835E51F094B9400EFA903 /* SixViewController.xib in Resources */,
 				97D835DD1F094B8000EFA903 /* FourViewController.xib in Resources */,
 				975EBC721EE9BC0200359005 /* Info.plist in Resources */,
-				975EBC761EE9BC0200359005 /* Assets.xcassets in Resources */,
 				97D835E11F094B8A00EFA903 /* FiveViewController.xib in Resources */,
 				975EBC731EE9BC0200359005 /* LaunchScreen.storyboard in Resources */,
 			);
